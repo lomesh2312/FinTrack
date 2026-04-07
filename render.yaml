@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: fintrack-backend-lomesh
+    env: node
+    plan: free
+    region: oregon
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: MONGO_URI
+        value: "mongodb+srv://sonkeshriyalucky_db_user:%23Lucky2312@cluster0.4rre0ay.mongodb.net/?appName=Cluster0"
+      - key: JWT_SECRET
+        value: "supersecret12345"
+      - key: PORT
+        value: "8000"
+      - key: NODE_VERSION
+        value: "18.16.0"
+      - key: CLIENT_URL
+        value: "https://fintrack-frontend-lomesh.vercel.app"
