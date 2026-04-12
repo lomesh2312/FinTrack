@@ -6,7 +6,6 @@ import { API_PATHS } from '../../utils/apiPaths';
 import InfoCard from '../../components/Cards/InfoCard';
 import { LuWallet, LuTrendingUp, LuTrendingDown } from 'react-icons/lu';
 import RecentTransactions from '../../components/Dashboard/RecentTransactions';
-import FinanceOverview from '../../components/Dashboard/FinanceOverview';
 import RecentIncomeWithChart from '../../components/Dashboard/RecentIncomeWithChart';
 import { useNavigate } from 'react-router-dom';
 
