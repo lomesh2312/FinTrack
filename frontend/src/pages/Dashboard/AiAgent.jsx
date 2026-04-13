@@ -30,7 +30,7 @@ const AiAgent = () => {
             </p>
 
             <a 
-              href="https://credit-card-approval-prediction-b-ml-3.onrender.com"
+              href="https://ai-credit-risk-advisor.streamlit.app/#explanation"
               target="_blank" 
               rel="noopener noreferrer"
               className='group relative inline-flex items-center justify-center gap-3 bg-[#7C5CFC] text-white px-10 py-5 rounded-2xl font-bold text-[16px] shadow-lg shadow-[#7C5CFC]/30 hover:bg-[#6D4EE0] hover:shadow-xl hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto'
